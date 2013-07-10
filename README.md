@@ -15,7 +15,7 @@ def report
 end
 ```
 
-view 'report.docx.docxtor':
+view 'report.docx':
 ```
 table_of_contents "Contents"
 h 1, "heading1"

@@ -1,0 +1,22 @@
+table_of_contents "Contents"
+
+h 1, "heading1"
+
+p "text1", :b => true do
+  style 3
+  italic; u
+
+  w "text2"
+  br
+  write "text3"
+end
+
+h 2 do
+  w "heading2"
+  line_break
+  write "some text"
+  br
+  write "another text"
+end
+
+p "content", :style => 4, :i => true, :align => 'center'
