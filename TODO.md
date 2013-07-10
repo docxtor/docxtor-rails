@@ -1,2 +1,1 @@
-1) Add capybara tests for http requests
-2) Support for using DSL in templates
+1) Add dummy rails app & capybara tests for http requests
