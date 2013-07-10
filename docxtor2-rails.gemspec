@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Docxtor2::Rails::VERSION
   spec.authors       = ["Vasiliy Yorkin"]
   spec.email         = ["vasiliy.yorkin@gmail.com"]
-  spec.description   = %q{Rails extension for docxtor2}
+  spec.description   = %q{A simple rails plugin to provide an docx renderer using the docxtor2 gem}
   spec.summary       = %q{Rails extension for docxtor2}
   spec.homepage      = "http://github.com/vyorkin/docxtor2-rails"
   spec.license       = "MIT"

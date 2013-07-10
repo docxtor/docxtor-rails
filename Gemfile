@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'docxtor2', :git => 'https://github.com/vyorkin/docxtor2.git'
+gem 'rails', '2.3.16'
 
 group :test, :development do
   gem 'pre-commit'

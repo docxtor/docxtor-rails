@@ -3,9 +3,8 @@ if ENV["COVERAGE"]
   SimpleCov.start
 end
 
+ENV["RAILS_ENV"] = 'test'
+
 require 'rspec'
-
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-
-require 'docxtor2'
 require 'docxtor2/rails'
